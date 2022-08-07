@@ -104,6 +104,25 @@ h2{
     width: 25%;
 }
 
+.uitleg{
+    margin-top:35%;
+}
+
+.inputbox{
+    width:40%;
+    margin-left:30%;
+    padding:20px;
+    text-align: center;
+    background-color: rgb(97, 153, 231);
+    font-size: 30px;
+}
+
+.inputbox2{
+    width:20%;
+    margin-left:40%;
+
+}
+
 @media only screen and (max-width: 600px) {
 
 
@@ -175,5 +194,49 @@ h2{
 .belangrijk{
     visibility:none;
     display: none;
+}
+
+.uitleg{
+    margin-top:80%;
+    position: absolute;
+}
+
+.inputbox{
+    width:80%;
+    margin-left:10%;
+    padding:5px;
+    text-align: center;
+    background-color: rgb(97, 153, 231);
+    font-size: 30px;
+}
+
+.inputbox2{
+    margin-top: 5%;
+    width:50%;
+    margin-left:25%;
+    padding:5px;
+    background-color: rgb(97, 153, 231);
+}
+
+.verhaal{
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.verhaal2{
+    position: absolute;
+    margin-top: 140%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bolder;
+    width:70%;
+    font-size: 16px;
+    text-align: center;
 }
 }   

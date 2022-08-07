@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Don Bosco Tieners</title>
 </head>
@@ -12,5 +12,11 @@
     <img src="cloud2.jpg" class="cloud">
     <a href="index.html"><h1>Don Bosco Tieners</h1></a>
     <h2>De quizz</h2>
+    <form class="uitleg" name="myform" method="post" onsubmit="return validateform()">
+        <input class="inputbox" type="text" id="code1" placeholder="Voeg code toe"><br>
+        <input class="inputbox2" type="button" onclick="fn1()" id="btn1" value="Controleer code">
+    </form>
+    <p class="verhaal" id="verhaal"></p>
+    <p class="verhaal2" id="verhaal2"></p>
 </body>
 </html>
